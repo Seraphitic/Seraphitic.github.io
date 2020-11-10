@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Sample Presentation</title>
+<meta name="author" content="(Kyle Vivian)"/>
+<meta name="description" content="A small sample presentation to test web hosting"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Sample Presentation</h1><h2 class="author">Kyle Vivian</h2><p class="date">Created: 2020-11-10 Tue 11:41</p>
+</section>
+<section id="table-of-contents"><div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-org7612832">1. Sample Slide</a></li>
+<li><a href="#/slide-org63ee143">2. Next Slide</a>
+<ul>
+<li><a href="#/slide-org999c7d1">2.1. Below Slide</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org9570d86">3. Final Slide</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section>
+<section id="slide-org7612832">
+<h2 id="org7612832"><span class="section-number-2">1</span> Sample Slide</h2>
+<p>
+This slide is a sample one.
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org63ee143">
+<h2 id="org63ee143"><span class="section-number-2">2</span> Next Slide</h2>
+<p>
+This is also a sample slide.
+</p>
+
+</section>
+<section id="slide-org999c7d1">
+<h3 id="org999c7d1"><span class="section-number-3">2.1</span> Below Slide</h3>
+<p>
+This slide should be below the previous slide.
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org9570d86">
+<h2 id="org9570d86"><span class="section-number-2">3</span> Final Slide</h2>
+<p>
+This is the final slide in the presentation.
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+plugins: [RevealMarkdown,RevealZoom,RevealNotes],
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+]
+});
+</script>
+</body>
+</html>
