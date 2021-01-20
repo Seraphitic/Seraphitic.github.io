@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Graphing Polynomials</title>
+<meta name="author" content="(Kyle Vivian)"/>
+<meta name="description" content="The presentation for a lesson on graphing arbitrary polynomials"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./css/reveal.css"/>
+
+<link rel="stylesheet" href="./css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1>Graphing Polynomials</h1><br><h2>Kyle Vivian</h2>
+</section>
+
+<section>
+<section id="slide-orgffdc64b">
+<h2 id="orgffdc64b">The Degree of a Polynomial</h2>
+<aside class="notes">
+<p>
+Make sure all students know which is the coefficient and which is the power.
+</p>
+
+</aside>
+<p>
+The 'degree' of a polynomial is equal to the highest power of a variable in the polynomial
+</p>
+
+</section>
+<section id="slide-orgffdc64b-split">
+
+<h2>The Degree of a Polynomial</h2>
+<p>
+<b>Example</b>
+What is the degree of the following polynomial?
+\[5x^3 - x^2 + 3x - 9\]
+</p>
+
+</section>
+<section id="slide-orgffdc64b-split">
+
+<h2>The Degree of a Polynomial</h2>
+<p>
+<b>Example</b>
+What is the degree of the following polynomial?
+\[2x - 3x^6 + 14 + x^2\]
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org309a491">
+<h2 id="org309a491">End Behavior of Polynomials</h2>
+<aside class="notes">
+<p>
+This would be a good point to mention something about a term 'dominating' because it's just so much bigger than other terms
+</p>
+
+</aside>
+<p>
+The 'end behavior' of the graph of a polynomial is just a description of how the ends of the curve on the graph look.
+</p>
+
+</section>
+<section id="slide-org3f30e75">
+<h3 id="org3f30e75">End Behavior of Even Degree Polynomials</h3>
+<aside class="notes">
+<p>
+Easy example: quadratics
+Again, good idea to ask if anybody can explain why
+</p>
+
+</aside>
+<p>
+The ends of an even degree polynomial will go in the same direction
+<object type="image/svg+xml" data="./img/EndBehaviorEven.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</section>
+<section id="slide-org3f30e75-split">
+
+<h3>End Behavior of Even Degree Polynomials</h3>
+<p>
+Here is an example of an even degree polynomial's end behavior
+<object type="image/svg+xml" data="./img/EndBehavior1.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+
+</section>
+<section id="slide-org3f30e75-split">
+
+<h3>End Behavior of Even Degree Polynomials</h3>
+<p>
+Here is a second example
+<object type="image/svg+xml" data="./img/EndBehavior2.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+
+</section>
+<section id="slide-orgb503cd4">
+<h3 id="orgb503cd4">End Behavior of Odd Degree Polynomials</h3>
+<aside class="notes">
+<p>
+Easy example: linear equations
+Can also point out that cubics will do the same
+Perhaps ask if anybody can think of a reason why
+</p>
+
+</aside>
+<p>
+The ends of an odd degree polynomial will go in opposite directions.
+<object type="image/svg+xml" data="./img/EndBehaviorOdd.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+
+</section>
+<section id="slide-orgb503cd4-split">
+
+<h3>End Behavior of Odd Degree Polynomials</h3>
+<p>
+Here is an example of an odd degree polynomial's end behavior
+<object type="image/svg+xml" data="./img/EndBehavior3.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+
+</section>
+<section id="slide-orgb503cd4-split">
+
+<h3>End Behavior of Odd Degree Polynomials</h3>
+<p>
+Here is a second example
+<object type="image/svg+xml" data="./img/EndBehavior4.svg" class="org-svg">
+Sorry, your browser does not support SVG.</object>
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgd4383b0">
+<h2 id="orgd4383b0">Roots/Zeros of Polynomials</h2>
+<aside class="notes">
+<p>
+Make sure that everyone is on board with the definition of a root or a zero.
+Perhaps make sure the connection is there that this is what they are solving for when using the quadratic formula
+</p>
+
+</aside>
+<p>
+A root or a zero of a polynomial is just the \(x\) value where it intersects the x-axis (i.e. where \(y=0\)). 
+</p>
+
+</section>
+<section id="slide-org4f269a1">
+<h3 id="org4f269a1">Fundamental Theorem of Algebra</h3>
+<aside class="notes">
+<p>
+Make sure it is clear there can be <i>less</i> than \(n\) roots
+Use an example of a quadratic having no x-intercept
+</p>
+
+</aside>
+<p>
+"A polynomial of degree \(n\) can have, at most, \(n\) distinct, real roots."
+</p>
+
+</section>
+<section id="slide-org960d804">
+<h3 id="org960d804">Odd Degree Polynomials</h3>
+<aside class="notes">
+<p>
+Point out that this is a consequence of the end behavior
+Since one end will go up and the other will go down, at least one of them must, eventually, hit the x-axis.
+</p>
+
+</aside>
+<p>
+"A polynomial of odd degree will have at least one real root."
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org8f30bd8">
+<h2 id="org8f30bd8">Turning Points</h2>
+<aside class="notes">
+<p>
+
+</p>
+
+</aside>
+<p>
+"A polynomial of degree \(n\) can have, at most, \(n-1\) turning points."
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="./js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
