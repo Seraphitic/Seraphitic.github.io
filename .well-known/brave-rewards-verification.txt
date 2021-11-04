@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: seraphitic.github.io
-Token: 94c16c67b939ffbda7d4460fca4e68ca74f8df21caff2f50d85a48f7b7adf185
