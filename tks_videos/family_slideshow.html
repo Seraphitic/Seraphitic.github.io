@@ -91,10 +91,31 @@
 					<section data-auto-animate>
 						<h2>Oh No! I don't have Internet!</h2>
 						<ul>
-							<li>It's just an html file</li>
-							<li>Back it up to your personal website on Github</li>
-							<li>Accessible on any device that has a browser</li>
+							<li class="fragment">Edit the html file locally (always available)</li>
+							<li class="fragment">Back it up to your personal website on Github</li>
+							<li class="fragment">Accessible on any device that has a browser (or anyone with the file)</li>
 						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Automatic Formatting</h1>
+					</section>
+
+					<section>
+						<h2>Fiddling with the Format</h2>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Plugins</h1>
+					</section>
+
+					<section>
+						<h2>Math</h2>
+						\[x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\]
 					</section>
 				</section>
 
@@ -107,6 +128,7 @@
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/search/search.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/math/math.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 		<script>
 
@@ -119,7 +141,7 @@
 				hash: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath.KaTeX ]
 			});
 
 		</script>
