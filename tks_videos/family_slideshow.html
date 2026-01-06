@@ -6,7 +6,7 @@
 
 		<title>The Best Slideshow Presenter</title>
 
-		<meta name="description" content="A quick slidshow to help new chess coaches with some things that I've learned.">
+		<meta name="description" content="My presentation for the family">
 		<meta name="author" content="Kyle Vivian">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -36,10 +36,13 @@
 
 					<section data-auto-animate>
 						<h2 data-id="head">Different Slideshow Formats</h2>
+					</section>
+					<section data-auto-animate>
+						<h2 data-id="head">Different Slideshow Formats</h2>
 						<ul>
-							<li data-id="pp">PowerPoint</li>
-							<li data-id="gs">Google Slides</li>
-							<li data-id="t+p">Transparency + Projector</li>
+							<li data-id="pp" class="fragment">PowerPoint</li>
+							<li data-id="gs" class="fragment">Google Slides</li>
+							<li data-id="t+p" class="fragment">Transparency + Projector</li>
 						</ul>
 					</section>
 					<section data-auto-animate>
@@ -103,8 +106,28 @@
 						<h1>Automatic Formatting</h1>
 					</section>
 
-					<section>
-						<h2>Fiddling with the Format</h2>
+					<section data-auto-animate>
+						<h2>Messing with Formatting</h2>
+					</section>
+					<section data-auto-animate>
+						<h2>Messing with Formatting</h2>
+						<ul>
+							<li class="fragment">Time consuming</li>
+							<li class="fragment">Distracting</li>
+							<li class="fragment">Frequent changes</li>
+						</ul>
+					</section>
+
+					<section data-auto-animate>
+						<h2>CSS Stylesheets</h2>
+					</section>
+					<section data-auto-animate>
+						<h2>CSS Stylesheets</h2>
+						<ul>
+							<li class="fragment">Style once</li>
+							<li class="fragment">Multiple pre-made themes</li>
+							<li class="fragment">Still flexible</li>
+						</ul>
 					</section>
 				</section>
 
@@ -117,6 +140,25 @@
 						<h2>Math</h2>
 						\[x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\]
 					</section>
+
+					<section>
+						<h2>Speaker Notes</h2>
+
+						<aside class="notes">
+							A useful tool for remembering what you want to say.
+						</aside>
+					</section>
+
+					<section>
+						<h2>Third-Party Plugins</h2>
+						<ul>
+							<li>Polls</li>
+							<li>Drawing</li>
+							<li>Laser Pointer</li>
+							<li>Charts</li>
+						</ul>
+						<p><a src="https://github.com/hakimel/reveal.js/wiki/Plugins,-Tools-and-Hardware">and more</a></p>
+					</section>
 				</section>
 
 				<section>
@@ -125,11 +167,27 @@
 					</section>
 
 					<section>
+						<span class="wtb-ew-v1" style="width: 369px; display:inline-block"><script src="https://www.worldtimebuddy.com/clock_widget.js?h=4612862&bc=555555&cn=&wt=c2"></script><i><a href="https://www.worldtimebuddy.com/">World Clock</a></i><noscript><a href="https://www.worldtimebuddy.com/">World Clock</a></noscript><script>window[wtb_event_widgets.pop()].init()</script></span>
+					</section>
+
+					<section>
+						<iframe src="https://phet.colorado.edu/sims/html/projectile-data-lab/latest/projectile-data-lab_en.html"
+								width="800"
+								height="600"
+								allowfullscreen>
+						</iframe>
+					</section>
+
+					<section>
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/xSKWf_20Lkg?si=eGizkFibd24CMIX2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 					</section>
 
 					<section>
 						<iframe id="14245453" allowtransparency="true" frameborder="0" style="width:75%;border:none;" src="https://www.chess.com/emboard?id=14245453"></iframe><script nonce="chesscom-diagram">window.addEventListener("message",e=>{e['data']&&"14245453"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+37}px`)});</script>
+					</section>
+
+					<section>
+						<iframe src="https://www.desmos.com/calculator/wv0btkdrzx?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 					</section>
 				</section>
 
@@ -153,6 +211,7 @@
 				progress: true,
 				center: true,
 				hash: true,
+				slideNumber: 'h.v',
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMath.KaTeX ]
